@@ -1,4 +1,4 @@
-package Projekt08.1;
+package Projekt08_1;
 
 public class Car {
     
