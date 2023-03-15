@@ -19,7 +19,12 @@ public class Car {
         yPosition = 100;
     }
 
+    Car(int x, int y){
+        xPosition = x;
+        yPosition = y;
+    }
 
+    
     //Unten die Methode der Klasse
     public void drive(int x, int y){
 
