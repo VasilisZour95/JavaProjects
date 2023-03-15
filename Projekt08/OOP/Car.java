@@ -1,6 +1,6 @@
 package Projekt08.OOP;
 
-public class CarTest {
+public class Car {
 
     //Oben stehen immer die Attribute (Eigenschaften einer klasse)
     String carBrand;
@@ -14,7 +14,7 @@ public class CarTest {
 
     //Konstruktor
 
-    CarTest(){
+    Car(){
         xPosition = 100;
         yPosition = 100;
     }

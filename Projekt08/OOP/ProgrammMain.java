@@ -1,12 +1,12 @@
 package Projekt08.OOP;
 
-public class ProgrammMainTest {
+public class ProgrammMain {
 
     public static void main(String[] args){
 
         // Car Datentyp ist ein Komplexer Datentyp, weil Primitiven Datetypen enthält
         //Objekt von der Klasse Car instanziieren(erzeugt)
-        CarTest car1 = new CarTest();
+        Car car1 = new Car();
         car1.printPosition();
         
 
@@ -26,7 +26,7 @@ public class ProgrammMainTest {
 
         
 
-        CarTest car2 = new CarTest();
+        Car car2 = new Car();
 
         car2.carBrand = "BMW";
         car2.horsepower = 320;
