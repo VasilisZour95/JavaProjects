@@ -7,6 +7,9 @@ public class ProgrammMain {
         // Car Datentyp ist ein Komplexer Datentyp, weil Primitiven Datetypen enthält
         //Objekt von der Klasse Car instanziieren(erzeugt)
         Car car1 = new Car();
+        car1.printPosition();
+        
+
 
         car1.carBrand = "Audi";
         car1.horsepower = 300;
