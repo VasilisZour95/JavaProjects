@@ -19,7 +19,9 @@ public class ProgrammMain {
 
         car1.drive(5, 5);
 
-        System.out.println("Aktuelle Position Auto 1: x = "+ car1.xPosition+" y = "+car1.yPosition);
+        car1.printPosition();
+
+        
 
         Car car2 = new Car();
 
