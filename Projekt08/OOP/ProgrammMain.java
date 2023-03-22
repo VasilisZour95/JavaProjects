@@ -1,8 +1,6 @@
 package Projekt08.OOP;
 import java.util.Scanner;
 
-import javax.swing.event.CaretListener;
-
 public class ProgrammMain {
 
     public static void main(String[] args){
