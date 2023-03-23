@@ -6,7 +6,9 @@ public class MainProgramm {
 
         Field f1 = new Field();
 
-        f1.printMethode();
+        f1.printTabelle();
+
+        System.out.println(f1.myArray[1][1]);
 
         
     }
