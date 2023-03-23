@@ -1,16 +1,20 @@
 package Projekt09.DerKonsolenwanderer;
 
+import java.util.Scanner;
+
 public class MainProgramm {
 
     public static void main(String[] args){
 
-        Field f1 = new Field();
+        Scanner input = new Scanner(System.in);
+        Field spielBereich = new Field();
 
-        f1.printTabelle();
+        spielBereich.buildField();
+        spielBereich.printField();
 
-        System.out.println(f1.myArray[1][1]);
-
-        
+        Player p1 = new Player(spielBereich);
+        spielBereich.printField();
+    
     }
     
 }
