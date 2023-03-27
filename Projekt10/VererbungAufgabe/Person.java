@@ -27,7 +27,7 @@ public class Person {
 
     public Person(String fn, String ln){
         this.firstName = fn;
-        this.lastName = ls;
+        this.lastName = ln;
 
     }
 

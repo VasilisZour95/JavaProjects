@@ -16,7 +16,7 @@ public class Manager extends Employee{
 
 
     //Methoden/Konstruktoren
-    public Manager(String fn, String ls,long eID, int noe){
+    public Manager(String fn, String ln,long eID, int noe){
         super(fn,ln,eID);
         this.numberOfEmployees = noe;
     }

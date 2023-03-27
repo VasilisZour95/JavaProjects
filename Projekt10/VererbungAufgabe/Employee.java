@@ -19,7 +19,10 @@ public class Employee extends Person{
     public Employee(String fn, String ln,long eID){
         super(fn,ln);
         this.employeeID = eID;
+        System.out.println("Name: "+fn+" "+ln);
+        System.out.println("ID: "+eID);
     }
+
 
     public Employee(){
         
