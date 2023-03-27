@@ -17,6 +17,7 @@ public class Employee extends Person{
     //Methode
 
     public Employee(String fn, String ln,long eID){
+        super(fn,ln);
         this.employeeID = eID;
     }
 

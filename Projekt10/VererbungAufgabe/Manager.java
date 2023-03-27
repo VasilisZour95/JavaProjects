@@ -16,18 +16,13 @@ public class Manager extends Employee{
 
 
     //Methoden/Konstruktoren
+    public Manager(String fn, String ls,long eID, int noe){
+        super(fn,ln,eID);
+        this.numberOfEmployees = noe;
+    }
+
     public Manager(){
-        numberOfEmployees++;
-    }
-
-    public void Print(String fn, String ls, ){
-        System.out.println("First name: "+fn);
-        System.out.println("Last Name: "+ln);
-        System.out.println("Number of Employee :"+noe++);
-    }
-
-    /*public Manager(){
         
-    }*/
+    }
 
 }
