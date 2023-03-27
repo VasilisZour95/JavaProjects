@@ -19,7 +19,11 @@ public class Manager extends Employee{
     public Manager(String fn, String ln,long eID, int noe){
         super(fn,ln,eID);
         this.numberOfEmployees = noe;
+        System.out.println("Name: "+fn+" "+ln);
+        System.out.println("ID: "+eID);
+        System.out.println("Number of Employee: "+noe);
     }
+
 
     public Manager(){
         
