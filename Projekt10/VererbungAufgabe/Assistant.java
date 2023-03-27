@@ -16,7 +16,9 @@ public class Assistant extends Employee{
 
     //Methode
     public Assistant(String fn, String ln, long id, int hpw){
-
+        System.out.println("Assistant Name: "+fn+" "+ln);
+        System.out.println("Assistant ID: "+id);
+        System.out.println("Hours per Week: "+hpw);
     }
 
     public Assistant(){
