@@ -32,9 +32,11 @@ public class Bank {
     public void openBankAccount(Person p){
         System.out.println("Hallo Herr "+p.getLn());
         System.out.println("Sie haben Ihr Konto erfolgreich eröffnet");
-        System.out.println();
+
         System.out.println("Name der Bank "+ this.getNameOfBank());
         System.out.println("Ihr Kontostand "+p.getMoney());
         System.out.println("Kreditlimit: "+this.getCreditLimit());
+        System.out.println();
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++");
     }
 }
