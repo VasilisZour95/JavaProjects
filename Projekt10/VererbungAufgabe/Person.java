@@ -26,8 +26,9 @@ public class Person {
     // Methode
 
     public Person(String fn, String ln){
-        System.out.println("Firstname: "+fn);
-        System.out.println("Lastname: "+ln);
+        this.firstName = fn;
+        this.lastName = ls;
+
     }
 
     public Person(){

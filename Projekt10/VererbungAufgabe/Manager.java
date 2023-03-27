@@ -16,12 +16,18 @@ public class Manager extends Employee{
 
 
     //Methoden/Konstruktoren
-    public Manager(String fn, String ln, int noe){
-        
+    public Manager(){
+        numberOfEmployees++;
     }
 
-    public Manager(){
-        
+    public void Print(String fn, String ls, ){
+        System.out.println("First name: "+fn);
+        System.out.println("Last Name: "+ln);
+        System.out.println("Number of Employee :"+noe++);
     }
+
+    /*public Manager(){
+        
+    }*/
 
 }
