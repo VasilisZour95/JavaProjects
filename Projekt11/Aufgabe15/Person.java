@@ -47,6 +47,4 @@ public class Person {
         this.myBank = myBank;
     }
 
-
-
 }
