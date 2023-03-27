@@ -20,5 +20,6 @@ public class Programm {
         deutscheBank.openBankAccount(p1);
         kfW.openBankAccount(p2);
         commerzbank.openBankAccount(p3);
+        uniCredit.openBankAccount(p1);
     }
 }

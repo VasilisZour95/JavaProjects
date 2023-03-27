@@ -1,6 +1,5 @@
 package Projekt11.Aufgabe15;
 
-import javax.management.monitor.MonitorMBean;
 
 public class Person {
     private String fn;
