@@ -10,9 +10,9 @@ public class Heater {
     public void changeLevel() throws IlligalLevelException{
 
         System.out.println("Welche Stufe möchten Sie?");
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        stufe = input.nextInt();
+        stufe = sc.nextInt();
 
 
         if(stufe < 0){
