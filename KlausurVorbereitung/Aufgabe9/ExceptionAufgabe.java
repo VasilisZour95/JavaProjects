@@ -9,14 +9,12 @@ public class ExceptionAufgabe {
         int nenner = 0;
 
         //Hier estellen wir ein try Catch Exception
-        try{
-            
+        try{    
             System.out.println("Result: "+ (zaehler/nenner));   //Hier machen wir division
-
         }catch(ArithmeticException e){
             System.err.println("Probieren Sie nochmanl!"+e.getMessage());   //Hier geben wir eine Message aus
-            }
         }
 
-    
+    }
+
 }
