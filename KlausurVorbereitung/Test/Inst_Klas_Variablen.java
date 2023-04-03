@@ -16,7 +16,7 @@ public class Inst_Klas_Variablen {
 
         //Hier geben wir einen Wert
         test.zaehler = 20;
-        multiplikator = test.zaehler * 2;
+        multiplikator = 20.20;
 
         // Hier geben wir die Variablen aus
         System.out.println(test.zaehler);
