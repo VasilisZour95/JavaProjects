@@ -2,13 +2,13 @@ package SkriptAufgaben.Aufg02;
 
 public class AutoMain {
 
-    static int anzahl;
+    
     public static void main(String[] args){
 
         Auto auto1 = new Auto();
-        anzahl++;
+        Auto.anzahl++;
         Auto auto2 = new Auto();
-        anzahl++;
+        Auto.anzahl++;
 
         auto1.hersteller = "BMW";
         auto1.ps = 350;
@@ -18,7 +18,7 @@ public class AutoMain {
 
         System.out.println("Auto nummer 1: "+auto1.hersteller+", "+auto1.ps);
         System.out.println("Auto nummer 2: "+auto2.hersteller+", "+auto2.ps);
-        System.out.println("Anzahl von Objekten: "+anzahl);
+        System.out.println("Anzahl von Objekten: "+Auto.anzahl);
 
     }
     
