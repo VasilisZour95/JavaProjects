@@ -20,8 +20,6 @@ public class AutoMain {
         System.out.println("Auto nummer 2: "+auto2.hersteller+", "+auto2.ps);
         System.out.println("Anzahl von Objekten: "+anzahl);
 
-        
-
     }
     
 }
