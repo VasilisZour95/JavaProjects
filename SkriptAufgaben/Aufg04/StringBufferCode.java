@@ -14,6 +14,12 @@ public class StringBufferCode {
 
         System.out.println(summe);
 
+        sb2 = new StringBuffer(sb2.toString()+" Grag warmes Wasser");
+        sb3 = new StringBuffer(sb2);
+
+        System.out.println(sb3);
+
+
     }
     
 }
