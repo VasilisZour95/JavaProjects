@@ -21,7 +21,4 @@ public class Auto {
     public void setHerstellernamen(String herstellernamen){
         this.herstellernamen = herstellernamen;
     }
-
-
-    
 }
