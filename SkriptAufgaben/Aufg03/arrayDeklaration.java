@@ -6,7 +6,7 @@ public class arrayDeklaration {
         byte[] myArray = new byte[3];
 
         myArray[0] = 1;
-        myArray[1] = 'p';
+        myArray[1] = 40;
         myArray[2] = 23;
 
 
