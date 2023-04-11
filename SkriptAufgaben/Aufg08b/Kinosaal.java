@@ -6,30 +6,34 @@ public class Kinosaal {
     private int saalNummer;
     private int anzahlSitzplaetzeSaal;
 
+    //Klassenvariablen
+    private static int anzahlSitzplaetzeKino;
+    private static int anzahlKinosaele;
+
     // Konstruktor
     public Kinosaal(){
-
+        anzahlKinosaele++;
+        saalNummer = anzahlKinosaele;
     }
 
     // Setter und Getter
-    public void setSaalNummer(int sn){
-        this.saalNummer = sn;
-    }
-
-    public int getSaalNummer(){
-        return saalNummer;
-    }
-
-    public void setAnzahlSitzplaetzeSaal(int ass){
-        this.anzahlSitzplaetzeSaal = ass;
+    public void setAnzahlSitzplaetzeSaal(int anzahlSitzplaetzeSaal){
+        anzahlSitzplaetzeSaal = anzahlSitzplaetzeSaal - this.anzahlSitzplaetzeSaal;
+        this.anzahlSitzplaetzeSaal = anzahlSitzplaetzeSaal;
+        anzahlSitzplaetzeKino += anzahlSitzplaetzeSaal;
     }
 
     public int getAnzahlSitzplaetzeSaal(){
         return anzahlSitzplaetzeSaal;
+
     }
 
-    //getAnzahlSitzplaetzeKino();
-    //getAnzahlKinosaele();
+    public static int getAnzahlSitzplaetzeKino(){
+        return anzahlSitzplaetzeKino;
+    }
 
-    
+
+    public static int getAnzahlKinosaele(){
+        return anzahlKinosaele;
+    }
 }
