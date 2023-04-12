@@ -1,2 +1,2 @@
 # JavaProjects
-Tutorials, Grundlage, Aufgaben, Projekts
+I'm learning Java
